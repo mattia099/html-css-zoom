@@ -15,6 +15,9 @@ body{
 main{
     height: calc(100vh - 40px - 80px);
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -36,6 +39,36 @@ header{
     cursor: pointer;
 }
 /*MAIN*/
+.card-wrapper{
+    max-width: 95%;
+    background-color: inherit;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+
+.card{
+    width: 250px;
+    position: relative;
+    font-size: 0;
+}
+
+.card img{
+    width: 100%;
+    
+}
+
+.card_user{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2px;
+}
+
 
 /*FOOTER*/
 footer{
